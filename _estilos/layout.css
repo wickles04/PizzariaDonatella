@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.chamada-pri{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(../_imagens/secao08-background-capa.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    clip-path: polygon(0 0,100% 0, 100% 97%,0 100%);
+}
+nav{
+    width: 95%;
+    height: 150px;
+    position: fixed;
+    top: 0%;
+    left: 2.5%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+}
+#icone-menu-mobile{
+display: none;
+}
+/* nav div{
+    float: left;
+
+} */
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-top: 70px;
+    align-items: center;
+}
+nav ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 80%;
+}
+nav ul li a#criar-conta {
+    border: 1px solid #fff;
+    padding: 9px 29px;
+
+}
+nav ul li a:hover {
+    background-color: #f2b705;
+    transition-duration: 0.8s;
+}
+nav ion-icon{
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    /* margin-top: -10px; */
+    margin-left: 20px;
+}
+nav ion-icon:hover{
+    color: #f2b705;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ELEMENTOS DO HEADER */
+
+header div#chamada h1{
+    color: #fff;
+    text-shadow: 4px 6px 10px #000;
+
+}
+header div#chamada h4{
+    font-size: 250%;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 55px;
+}
+header div#chamada a{
+    font-size: 110%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px 80px;
+    border-radius: 50px;
+    display: inline-block;
+    background: linear-gradient(rgba(7,140,49,55)0%, rgba(6,89,2,35)50%,rgba(6,89,2,35)100%);
+}
