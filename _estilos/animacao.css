@@ -1,0 +1,40 @@
+/* animação do título */
+ 
+@keyframes HEADERH1-moverParaDireita {
+  0% {
+    opacity: 0;
+    transform: translateX(-75px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ 
+@keyframes irParaEsquerda {
+    0% {
+      opacity: 0;
+      transform: translateX(20px)
+    }
+    75% {
+      transform: translateX(-20px)
+    }
+    100% {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+ 
+@keyframes irParaCima {
+  0% {
+    opacity: 0;
+    transform: translateY(200px)
+  }
+  100% {
+  opacity: 1;
+  transform: translateY(0);
+  }
+}
